@@ -88,7 +88,7 @@ li img{
     }
   }
 @media only screen and (max-device-width: 480px){
-    #intro-3, #intro-4, #intro-2{
+    #intro-3, #intro-4, #intro-2, .position, ,position-1, .ijoba{
         display: none;
     }
 } 
