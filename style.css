@@ -87,7 +87,7 @@ li img{
       background-attachment: scroll;
     }
   }
-@media screen and (max-width: 300px){
+@media only screen and (max-device-width: 480px){
     #intro-3, #intro-4, #intro-2{
         display: none;
     }
