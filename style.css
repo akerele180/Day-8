@@ -1,0 +1,89 @@
+
+body, html {
+    font-family:"Lato", sans-serif;
+    height: 100%;
+    background-color: wheat;
+    font-size:20px;
+}
+p{ 
+    text-align:center;
+}
+img{
+    width: 100%;
+}
+.scroll-1, .scroll-3{
+    background-image: url('images/pics1.jpg');
+    height:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.scroll-2{
+    background-image: url('images/pics2.jpg');
+    height:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.scroll-4{
+    background-image: url('images/pics3.jpg');
+    height:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text {
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left: 30%;
+}
+.position {
+    position: absolute;
+    text-align: center;
+    top:650px;
+    left: 30%;
+}
+.position-1{
+    position: absolute;
+    text-align: center;
+    top:1400px;
+    left: 100px;
+}
+#intro-1, #intro-2, #intro-3{
+    padding:20px;
+    background-color: white;
+    box-shadow: inset -1px 0px 12px 0px ;
+    letter-spacing:5px;
+}
+.ijoba{
+    position: absolute;
+    text-align: center;
+    top:2900px;
+    left: 300px;  
+    background-color: white;
+    box-shadow: inset -1px 0px 12px 0px ;
+    letter-spacing:5px;
+}
+ul{
+    position: absolute;
+    position: fixed;
+    top: 50px;
+    color:white;
+}
+li{
+    list-style: none;
+    top: 50px;
+}
+li img{
+    width:40px;
+    height: 40px;
+}
+@media only screen and (max-device-width: 1366px) {
+    .scroll-1, .scroll-2, .scroll-3, .scroll-4 {
+      background-attachment: scroll;
+    }
+  }
